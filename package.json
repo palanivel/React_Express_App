@@ -1,0 +1,21 @@
+{
+  "name": "react_express_app",
+  "version": "1.0.0",
+  "description": "Sample application with React and Express JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node expressbackend/server.js",
+    "server": "nodemon expressbackend/server.js"
+  },
+  "author": "Palanivel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
